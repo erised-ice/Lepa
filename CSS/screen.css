@@ -30,17 +30,86 @@ body {
     padding: 5px 20px;
 }
 
-.phone {
+.phone,
+.email {
     display: inline-block;
     text-transform: uppercase;
 }
 
-.phone__number {
+.phone__number,
+.email__value {
     text-decoration: none;
 }
 
 .header__phone,
-.phone__number_header {
+.phone__number--header,
+.header__email,
+.email__value--header {
     color: black;
     font-size: 21px;
+}
+
+.button {
+    background-color: #8567b2;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.header__callback {
+    font-size: 18px;
+    padding: 7px 17px;
+    margin: 0 51px;
+}
+
+.email__value {
+    text-transform: none;
+}
+
+.header__email {
+    margin: 0 55px 0 0;
+}
+
+.social {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 0;
+}
+
+.social__link {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.social__link--fb {
+    background-image: url("../img/template/facebook.png");
+}
+
+.social__link--youtube {
+    background-image: url("../img/template/utube.png");
+}
+
+.social__link--vk {
+    background-image: url("../img/template/vk.png");
+}
+
+.social__link--ok {
+    background-image: url("../img/template/ok.png");
+}
+
+.social__link--googleplus {
+    background-image: url("../img/template/googleplus.png");
+}
+
+.social__link--skype {
+    background-image: url("../img/template/skype.png");
+}
+
+.social__link:not(:last-child) {
+    margin: 0 8px 0 0;
 }
