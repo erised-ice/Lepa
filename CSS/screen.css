@@ -15,7 +15,7 @@ body {
 
 .inner {
     width: 100%;
-    max-width: 1167px;
+    max-width: 1127px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -46,7 +46,8 @@ body {
 .header__email,
 .email__value--header {
     color: black;
-    font-size: 21px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .button {
@@ -71,6 +72,7 @@ body {
 
 .header__email {
     margin: 0 55px 0 0;
+    letter-spacing: 1.5px;
 }
 
 .social {
